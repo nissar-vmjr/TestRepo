@@ -1,0 +1,26 @@
+.align-center{
+    text-align:center;
+}
+
+.align-right{
+    text-align: right;
+}
+
+  .tab-content {
+             border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            border-radius: 0px 0px 5px 5px;
+            padding: 10px;
+            min-height: 400px;
+        }
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: darkgrey;
+  color: white;
+}
+
+.table thead tr th{
+     background-color: grey;
+  color: white;
+}
