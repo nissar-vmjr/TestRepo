@@ -11,8 +11,7 @@ web3.eth.defaultAccount = web3.eth.accounts[1];
 
 var bondContract=web3.eth.contract(abiData);
 
-
-
+// testing comments
 
 var bond= bondContract.at(contractAddress);
 console.log(bond);
