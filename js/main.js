@@ -11,7 +11,7 @@ web3.eth.defaultAccount = web3.eth.accounts[1];
 
 var bondContract=web3.eth.contract(abiData);
 
-// testing comments. few more comments.  added in remote repo
+// testing comments. few more comments.  added in remote repo .. more in local
 
 var bond= bondContract.at(contractAddress);
 console.log(bond);
